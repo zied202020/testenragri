@@ -28,7 +28,7 @@
       <input
         class="form-check-input"
         type="radio"
-        name="inlineRadioOptions"
+        name="cvl"
         id="inlineRadio1"
         value="option1"
       />
@@ -38,7 +38,7 @@
       <input
         class="form-check-input"
         type="radio"
-        name="inlineRadioOptions"
+        name="cvl"
         id="inlineRadio2"
         value="option2"
       />
@@ -48,13 +48,13 @@
     <form>
     <div class="row">
       <div class="col">
-        <input type="text" class="form-control" placeholder="Nom">
+        <input type="text" class="form-control" placeholder="Nom" name="nom">
       </div>
       <div class="col">
-        <input type="text" class="form-control" placeholder="Prenom">
+        <input type="text" class="form-control" placeholder="Prenom" prenom="prenom">
       </div>
       <div class="col">
-      <select class="form-select" id="inputGroupSelect02">
+      <select class="form-select" id="inputGroupSelect02" name="age">
       <option selected disabled>Tranche d'age</option>    
       <option value="1">40-50</option>
       <option value="2">30-40</option>
