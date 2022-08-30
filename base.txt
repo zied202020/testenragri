@@ -1,0 +1,12 @@
+CREATE TABLE agriculteur(
+    id int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
+    cvl varchar(100) NOT NULL COMMENT 'Cvl',
+    nom varchar(100) NOT NULL COMMENT 'Nom',
+    prenom varchar(100) NOT NULL COMMENT 'Prenom',
+    age varchar(255) NOT NULL COMMENT 'Age',
+    PRIMARY KEY (id)
+  ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='datatable testenragri' AUTO_INCREMENT=1;
+  
+INSERT INTO `agriculteur` (`id`, `cvl`, `nom`, `prenom`, `age`) VALUES
+(1, 'Mr', 'Cristofer', 'George', '40-50'),
+(2, 'Mme', 'Siphron', 'Kianna', '30-40');
